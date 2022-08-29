@@ -21,8 +21,8 @@ public class Date7 {
 		SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
 		
 		Date d2 = sdf1.parse(s1);
-		
-		if (d1.getTime() > d2.getTime()) {
+		System.out.println(d2);
+		if (d1.getTime() <d2.getTime()) {
 			
 			System.out.println("formate is correct.......//");
 			}

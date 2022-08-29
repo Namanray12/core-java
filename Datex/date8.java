@@ -11,7 +11,7 @@ public class date8 {
 		
 		String a = "20/01/2002";
 		
-			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+ 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 			
 			Date d = sdf.parse(a);
 			int currentDate = calculateAge(d);
